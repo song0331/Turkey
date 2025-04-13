@@ -139,11 +139,14 @@
     </div>
   </footer>
 
+  <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
+    integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+
   <script>
-    document.querySelector('button').addEventListener('click', function(){
+    $('button').on('click', function () {
       gtag('event', 'click_btn', {
-        'name' : '더 보기',
-      })
+        'name': '더 보기',
+      });
     })
   </script>
 
